@@ -62,8 +62,6 @@ def game():
     
     check_winner(user_score, computer_score)
         
-    
-
 
 while(input("Do you want to play a game of Blackjack? Type 'y' for yes or 'n' for no: ").lower() == 'y'):
     os.system('cls')
@@ -72,9 +70,4 @@ while(input("Do you want to play a game of Blackjack? Type 'y' for yes or 'n' fo
     computer_cards =[]
 print("Thanks for playing!")
     
-        
-    
-    
-
-
     
