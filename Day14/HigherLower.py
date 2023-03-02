@@ -8,7 +8,7 @@ def format_data(account):
     account_name = account["name"]
     account_descr = account["description"]
     account_country = account["country"]
-    print(f"{account_name}, a {account_descr}, from {account_country}")
+    return f"{account_name}, a {account_descr}, from {account_country}"
 
 
 print(logo)
@@ -24,9 +24,9 @@ while shouldContinue:
     option_b = random.choice(data)
     data.remove(option_b)
 
-    format_data(option_a)
+    print(f"Compare A: {format_data(option_a)}")
     print(vs)
-    format_data(option_b)
+    print(f"Against B: {format_data(option_b)}")
 
     winner = option_a if option_a["follower_count"] > option_b["follower_count"] else option_b
 
