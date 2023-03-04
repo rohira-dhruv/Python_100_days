@@ -1,4 +1,4 @@
-*.test
+key.test
 *.pyc
 *.pyo
 .idea
