@@ -1,0 +1,33 @@
+Importing Modules
+
+1. import turtle
+
+//To create a new Turtle
+//Most expressive
+tim = turtle.Turtle()
+
+2. from turtle import Turtle
+
+tim = Turtle()
+
+3. from turtle import *
+// Generally we shouldn't use this, as it creates confusion as to from where is a function defined.
+
+4. import turtle as t
+//Aliasing the modules.
+
+tim = t.Turtle()
+
+5. Installing Modules
+
+----------------------------------------------------------------------------------------------------------
+
+Tuples in Python
+
+tup = (1, 3, 5)
+tup[0] // 1
+tup[2] // 5
+
+difference between list and tuple is that tuples are immutable. Once it is created, it cannot be changed.
+
+
